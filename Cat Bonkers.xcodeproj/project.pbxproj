@@ -7,27 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1AB2FC1E4FE75B00800ED0 /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1AB2FB1E4FE75B00800ED0 /* StartPage.swift */; };
+		1F1AB3071E51160F00800ED0 /* button.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1F1AB3061E51160F00800ED0 /* button.atlas */; };
 		1FE7D4B61E33ACAF00207041 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7D4B51E33ACAF00207041 /* AppDelegate.swift */; };
-		1FE7D4B81E33ACAF00207041 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FE7D4B71E33ACAF00207041 /* GameScene.sks */; };
-		1FE7D4BA1E33ACAF00207041 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FE7D4B91E33ACAF00207041 /* Actions.sks */; };
 		1FE7D4BC1E33ACAF00207041 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7D4BB1E33ACAF00207041 /* GameScene.swift */; };
 		1FE7D4BE1E33ACAF00207041 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7D4BD1E33ACAF00207041 /* GameViewController.swift */; };
 		1FE7D4C11E33ACAF00207041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE7D4BF1E33ACAF00207041 /* Main.storyboard */; };
 		1FE7D4C31E33ACAF00207041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE7D4C21E33ACAF00207041 /* Assets.xcassets */; };
 		1FE7D4C61E33ACAF00207041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE7D4C41E33ACAF00207041 /* LaunchScreen.storyboard */; };
+		1FE7D4CE1E33AFB300207041 /* TapInterruption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7D4CD1E33AFB300207041 /* TapInterruption.swift */; };
+		1FE7D4D01E33B03500207041 /* FirstMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7D4CF1E33B03500207041 /* FirstMove.swift */; };
+		1FE7D4D21E33B05C00207041 /* CoordinateLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7D4D11E33B05C00207041 /* CoordinateLogic.swift */; };
+		1FE7D4D41E33B0B800207041 /* GameLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7D4D31E33B0B800207041 /* GameLoop.swift */; };
+		1FE7D4DC1E3AA28E00207041 /* ladybug.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1FE7D4DB1E3AA28E00207041 /* ladybug.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F1AB2FB1E4FE75B00800ED0 /* StartPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartPage.swift; path = ../StartPage.swift; sourceTree = "<group>"; };
+		1F1AB3061E51160F00800ED0 /* button.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = button.atlas; sourceTree = "<group>"; };
 		1FE7D4B21E33ACAF00207041 /* Cat Bonkers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat Bonkers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE7D4B51E33ACAF00207041 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FE7D4B71E33ACAF00207041 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		1FE7D4B91E33ACAF00207041 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		1FE7D4BB1E33ACAF00207041 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		1FE7D4BD1E33ACAF00207041 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1FE7D4C01E33ACAF00207041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FE7D4C21E33ACAF00207041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FE7D4C51E33ACAF00207041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FE7D4C71E33ACAF00207041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FE7D4CD1E33AFB300207041 /* TapInterruption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapInterruption.swift; sourceTree = "<group>"; };
+		1FE7D4CF1E33B03500207041 /* FirstMove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstMove.swift; path = ../FirstMove.swift; sourceTree = "<group>"; };
+		1FE7D4D11E33B05C00207041 /* CoordinateLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoordinateLogic.swift; path = ../CoordinateLogic.swift; sourceTree = "<group>"; };
+		1FE7D4D31E33B0B800207041 /* GameLoop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameLoop.swift; path = ../GameLoop.swift; sourceTree = "<group>"; };
+		1FE7D4DB1E3AA28E00207041 /* ladybug.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ladybug.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +71,15 @@
 			isa = PBXGroup;
 			children = (
 				1FE7D4B51E33ACAF00207041 /* AppDelegate.swift */,
-				1FE7D4B71E33ACAF00207041 /* GameScene.sks */,
-				1FE7D4B91E33ACAF00207041 /* Actions.sks */,
 				1FE7D4BB1E33ACAF00207041 /* GameScene.swift */,
+				1F1AB2FB1E4FE75B00800ED0 /* StartPage.swift */,
+				1FE7D4DB1E3AA28E00207041 /* ladybug.atlas */,
 				1FE7D4BD1E33ACAF00207041 /* GameViewController.swift */,
+				1F1AB3061E51160F00800ED0 /* button.atlas */,
+				1FE7D4CF1E33B03500207041 /* FirstMove.swift */,
+				1FE7D4D11E33B05C00207041 /* CoordinateLogic.swift */,
+				1FE7D4D31E33B0B800207041 /* GameLoop.swift */,
+				1FE7D4CD1E33AFB300207041 /* TapInterruption.swift */,
 				1FE7D4BF1E33ACAF00207041 /* Main.storyboard */,
 				1FE7D4C21E33ACAF00207041 /* Assets.xcassets */,
 				1FE7D4C41E33ACAF00207041 /* LaunchScreen.storyboard */,
@@ -133,11 +148,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1AB3071E51160F00800ED0 /* button.atlas in Resources */,
 				1FE7D4C11E33ACAF00207041 /* Main.storyboard in Resources */,
-				1FE7D4B81E33ACAF00207041 /* GameScene.sks in Resources */,
 				1FE7D4C31E33ACAF00207041 /* Assets.xcassets in Resources */,
+				1FE7D4DC1E3AA28E00207041 /* ladybug.atlas in Resources */,
 				1FE7D4C61E33ACAF00207041 /* LaunchScreen.storyboard in Resources */,
-				1FE7D4BA1E33ACAF00207041 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE7D4CE1E33AFB300207041 /* TapInterruption.swift in Sources */,
+				1FE7D4D01E33B03500207041 /* FirstMove.swift in Sources */,
+				1FE7D4D21E33B05C00207041 /* CoordinateLogic.swift in Sources */,
 				1FE7D4BC1E33ACAF00207041 /* GameScene.swift in Sources */,
+				1FE7D4D41E33B0B800207041 /* GameLoop.swift in Sources */,
+				1F1AB2FC1E4FE75B00800ED0 /* StartPage.swift in Sources */,
 				1FE7D4BE1E33ACAF00207041 /* GameViewController.swift in Sources */,
 				1FE7D4B61E33ACAF00207041 /* AppDelegate.swift in Sources */,
 			);
@@ -280,6 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tinylizard.Cat-Bonkers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -294,6 +315,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tinylizard.Cat-Bonkers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -316,6 +338,7 @@
 				1FE7D4CC1E33ACAF00207041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
